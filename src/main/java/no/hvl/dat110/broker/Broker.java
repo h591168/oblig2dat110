@@ -62,7 +62,7 @@ public class Broker extends Stopable {
 			
 		} else {
 			System.out.println("Protocol error: first message should be connect");
-			System.out.println("Protocol error: first message should be connect");
+		
 		}
 	}
 	
