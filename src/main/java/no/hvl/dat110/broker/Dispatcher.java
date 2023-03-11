@@ -156,16 +156,6 @@ public class Dispatcher extends Stopable {
 storage.getSubscribers(msg.getTopic()).forEach(u -> storage.getSession(u).send(msg));
 		
 	
-
-
-//		String topic = msg.getTopic();
-//		Message message = msg.getMessage();
-//		Set<String> subscribers = storage.getSubscribers(topic);
-//		for (String subscriber : subscribers) {
-//			ClientSession client = storage.getSession(subscriber);
-//			client.send(message);
-//		}
-//		throw new UnsupportedOperationException(TODO.method());
 	}
 	}
 
